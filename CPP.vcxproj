@@ -28,7 +28,8 @@
     <ClCompile Include="array\erfen.cpp" />
     <ClCompile Include="array\yichu.cpp" />
     <ClCompile Include="array\zishuzu.cpp" />
-    <ClCompile Include="hash\hash.cpp" />
+    <ClCompile Include="hash\hash1.cpp" />
+    <ClCompile Include="hash\hash2.cpp" />
     <ClCompile Include="List\fanzhuan.cpp" />
     <ClCompile Include="List\huan.cpp" />
     <ClCompile Include="List\jiaohuan.cpp" />

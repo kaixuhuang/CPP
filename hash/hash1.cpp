@@ -91,30 +91,30 @@ public:
 
 
 };
-int main() {
-
-
-
-
-    string a = "cbaebabacd";
-    string b = "abc";
-    Solution A;
-    vector<int>::iterator it;
-    vector<int> c;
-    c = A.findAnagrams(a, b);
- 
-
-    //if (A.isAnagram(a, b))
-    //    cout << "true";
-    //else
-    //    cout << "false";
-
-
-    //string  a = "你好很高兴认识你";
-    //char b = '你';
-    //cout << b;
-    ////vector<
-    ////sort(a.begin(), a.end());
-
-
-}
+//int main() {
+//
+//
+//
+//
+//    string a = "cbaebabacd";
+//    string b = "abc";
+//    Solution A;
+//    vector<int>::iterator it;
+//    vector<int> c;
+//    c = A.findAnagrams(a, b);
+// 
+//
+//    //if (A.isAnagram(a, b))
+//    //    cout << "true";
+//    //else
+//    //    cout << "false";
+//
+//
+//    //string  a = "你好很高兴认识你";
+//    //char b = '你';
+//    //cout << b;
+//    ////vector<
+//    ////sort(a.begin(), a.end());
+//
+//
+//}

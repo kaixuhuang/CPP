@@ -34,7 +34,7 @@
     <ClCompile Include="array\zishuzu.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="hash\hash.cpp">
+    <ClCompile Include="hash\hash1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="List\fanzhuan.cpp">
@@ -53,6 +53,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="List\yichu .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\hash2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
