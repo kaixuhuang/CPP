@@ -68,7 +68,7 @@ public:
         vector<int> scount(26);
         for (cur = 0; cur < len; cur++)
         {
-            pcount[p[cur] - 'a']++;
+            pcount[p[cur] - 'a']++;//记录前x位的hash
             scount[s[cur] - 'a']++;
         }
         
@@ -77,7 +77,7 @@ public:
         for (cur = 0; cur <=s.length() - len; cur++)
         {
             scount[s[cur] - 'a']--;
-            scount[s[cur + len] - 'a']++;
+            scount[s[cur + len] - 'a']++;//删去前一位的记录 添加后一位的记录 本质是滑动窗口
             if (pcount == scount)
                 result.emplace_back(cur + 1);
         }
