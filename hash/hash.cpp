@@ -1,12 +1,15 @@
 #include<iostream>
 #include<set>
 #include<map>
+#include <unordered_map>
 #include<array>
 #include<vector>
 #include<algorithm>
+#include<string>
 using namespace std;
 class Solution {
 public:
+    //242
    /* bool isAnagram(string s, string t) {
         int m = s.length();
         int n = t.length();
@@ -37,15 +40,70 @@ public:
         sort(vec2.begin(), vec2.end());
         return vec1 == vec2;
     }
+    //49
+    vector<vector<string>> groupAnagrams(vector<string>& strs) {
+        vector<vector<string>> ans;
+        unordered_map<string, vector<string>> hash;//创建一个哈希表，以排序后的str作为key值，排序前的作为value值
+        for (string str:strs)
+        {
+            string s = str;
+            sort(str.begin(), str.end());
+            hash[str].emplace_back(s);
+        }
+        for (auto x : hash)//遍历
+        
+            ans.emplace_back(x.second);
+        
+        return ans;
+    }
+
+    vector<int> findAnagrams(string s, string p) {
+        vector<int>  result;
+        if (s.length() < p.length() && (s.length() == 0 || p.length()))
+            return {};
+        int cur;
+        int len = p.length();
+        string tmp;
+        vector<int> pcount(26);
+        vector<int> scount(26);
+        for (cur = 0; cur < len; cur++)
+        {
+            pcount[p[cur] - 'a']++;
+            scount[s[cur] - 'a']++;
+        }
+        
+        if (pcount == scount)
+            result.emplace_back(0);
+        for (cur = 0; cur <=s.length() - len; cur++)
+        {
+            scount[s[cur] - 'a']--;
+            scount[s[cur + len] - 'a']++;
+            if (pcount == scount)
+                result.emplace_back(cur + 1);
+        }
+
+        return result;
+        
+
+    }
+
+
+
 
 };
 int main() {
 
 
 
-    //string a = "avbca";
-    //string b = "abcva";
-    //Solution A;
+
+    string a = "cbaebabacd";
+    string b = "abc";
+    Solution A;
+    vector<int>::iterator it;
+    vector<int> c;
+    c = A.findAnagrams(a, b);
+ 
+
     //if (A.isAnagram(a, b))
     //    cout << "true";
     //else
