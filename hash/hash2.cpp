@@ -4,6 +4,7 @@
 using namespace std;
 class Solution {
 public:
+    //349
     vector<int> intersection(vector<int>& nums1, vector<int>& nums2) {
         int i;
         set<int> mix;
@@ -20,7 +21,7 @@ public:
         }
         return  vector<int>(mix.begin(), mix.end());
     }
-
+    //350
     vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
         int i;
         vector<int> mix;
