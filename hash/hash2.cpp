@@ -155,16 +155,16 @@ public:
 
 
 };
-int main() {
-
-    vector<int> nums = { -1,0,1,2,-1,4 };
-    Solution A;
-    A.threeSum(nums);
-
-    /*vector<int> nums2 = {2,2};
-    
-    A.intersect(nums1, nums2);*/
-
-
-    return 0;
-}
+//int main() {
+//
+//    vector<int> nums = { -1,0,1,2,-1,4 };
+//    Solution A;
+//    A.threeSum(nums);
+//
+//    /*vector<int> nums2 = {2,2};
+//    
+//    A.intersect(nums1, nums2);*/
+//
+//
+//    return 0;
+//}

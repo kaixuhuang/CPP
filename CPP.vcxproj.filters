@@ -58,5 +58,11 @@
     <ClCompile Include="hash\hash2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="string\Stringfanzhuan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="string\kmp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

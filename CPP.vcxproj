@@ -36,6 +36,8 @@
     <ClCompile Include="List\sheji .cpp" />
     <ClCompile Include="List\xiangjiao.cpp" />
     <ClCompile Include="List\yichu .cpp" />
+    <ClCompile Include="string\kmp.cpp" />
+    <ClCompile Include="string\Stringfanzhuan.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
