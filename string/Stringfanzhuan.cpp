@@ -143,16 +143,17 @@ public:
 
     }
 
+
 };
-int main() {
-
-    string a = "abc";
-    string b = "c";
-    int x = 2;
-    Solution A;
-    //A.removeExtraSpaces(a);
-
-    cout << A.strStr(a, b);
-
-
-}
+//int main() {
+//
+//    string a = "aabaaf";
+//    //string b = "c";
+//    //int x = 2;
+//    Solution A;
+//    //A.removeExtraSpaces(a);
+//
+//    cout << A.getNext(a);
+//
+//
+//}
