@@ -58,21 +58,39 @@ public:
     
     
     }
+
+    //28
+
+        bool repeatedSubstringPattern(string s) {
+            if (s.size() == 0) {
+                return false;
+            }
+            vector<int> next;
+            next = getNext(s);
+            int len = s.size();
+            if (next[len - 1] != 0 && len % (len - (next[len - 1])) == 0) {
+                return true;
+            }
+            return false;
+
+
+        }
+    
 };
 
 
-int main() {
-    string a = "mississippi";
-    string b = "issip";
-    Solution A;
-    vector<int> x = A.getNext(b);
-    for (auto k : x)
-    {
-        cout << k << " ";
-    }
-    
-   
-       /* cout << A.strStr(a,b) << " ";*/
-
-    return 0;
-}
+//int main() {
+//    string a = "mississippi";
+//    string b = "issip";
+//    Solution A;
+//    vector<int> x = A.getNext(b);
+//    for (auto k : x)
+//    {
+//        cout << k << " ";
+//    }
+//    
+//   
+//       /* cout << A.strStr(a,b) << " ";*/
+//
+//    return 0;
+//}
