@@ -28,6 +28,7 @@
     <ClCompile Include="array\erfen.cpp" />
     <ClCompile Include="array\yichu.cpp" />
     <ClCompile Include="array\zishuzu.cpp" />
+    <ClCompile Include="doublepointer\shuangzhizhen.cpp" />
     <ClCompile Include="hash\hash1.cpp" />
     <ClCompile Include="hash\hash2.cpp" />
     <ClCompile Include="List\fanzhuan.cpp" />
@@ -36,6 +37,10 @@
     <ClCompile Include="List\sheji .cpp" />
     <ClCompile Include="List\xiangjiao.cpp" />
     <ClCompile Include="List\yichu .cpp" />
+    <ClCompile Include="stackandqueue\Myqueue.cpp" />
+    <ClCompile Include="stackandqueue\Mystack.cpp" />
+    <ClCompile Include="stackandqueue\Queue.cpp" />
+    <ClCompile Include="stackandqueue\Stack.cpp" />
     <ClCompile Include="string\kmp.cpp" />
     <ClCompile Include="string\Stringfanzhuan.cpp" />
   </ItemGroup>

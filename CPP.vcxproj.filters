@@ -64,5 +64,20 @@
     <ClCompile Include="string\kmp.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="doublepointer\shuangzhizhen.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stackandqueue\Mystack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stackandqueue\Myqueue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stackandqueue\Stack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stackandqueue\Queue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
