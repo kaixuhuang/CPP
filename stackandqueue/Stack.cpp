@@ -3,7 +3,9 @@
 #include<vector>
 #include<algorithm>
 #include <string>
+#include<deque>
 using namespace std;
+
 class Solution {
 public:
     //1047
@@ -30,7 +32,7 @@ public:
         return result;
 
     }
-
+    //150
     int evalRPN(vector<string>& tokens) {
         stack<int> stk;
         for (int i = 0; i < tokens.size(); i++)
@@ -59,47 +61,18 @@ public:
     }
 
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        vector<int> result;
-        if (nums.size() == 1)
-            result.emplace_back(nums[0]);
-        else
-        {
-            int i, j;
-            stack<int> max;
-            for (i = 0; i <= nums.size() - k; i++)
-            {
-                
-                for (j = i; j < i + k; j++)
-                {
-                    if (max.empty())
-                        max.push(nums[j]);
-                    else
-                    {
-                        if (max.top() < nums[j])
-                        {
-                            max.pop();
-                            max.push(nums[j]);
-                        }
-                    }
-                }
-                result.emplace_back(max.top());
-                max.pop();
-             }
-           
-         
-        }
-        return result;
+
     }
 };
-int main() {
-    /*string a = "abbaca";*/
-    vector<int> a = { 1,3,-1,-3,5,3,6,7 };
-    int b = 3;
-    Solution A;
-    vector<int> c = A.maxSlidingWindow(a, b);
-    for (auto x : c)
-        cout << x << " ";
-
-    
-    return 0;
-}
+//int main() {
+//    /*string a = "abbaca";*/
+//    vector<int> a = { 1,3,-1,-3,5,3,6,7 };
+//    int b = 3;
+//    Solution A;
+//    vector<int> c = A.maxSlidingWindow(a, b);
+//    for (auto x : c)
+//        cout << x << " ";
+//
+//    
+//    return 0;
+//}

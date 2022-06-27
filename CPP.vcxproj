@@ -37,6 +37,7 @@
     <ClCompile Include="List\sheji .cpp" />
     <ClCompile Include="List\xiangjiao.cpp" />
     <ClCompile Include="List\yichu .cpp" />
+    <ClCompile Include="stackandqueue\Monotonicqueue.cpp" />
     <ClCompile Include="stackandqueue\Myqueue.cpp" />
     <ClCompile Include="stackandqueue\Mystack.cpp" />
     <ClCompile Include="stackandqueue\Queue.cpp" />
