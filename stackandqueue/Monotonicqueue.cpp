@@ -54,16 +54,16 @@ public:
         return max;
     }
 };
-int main() {
-    vector<int> nums = { 1,3,1,2,0,5 };
-    int k = 3;
-    Solution A;
-    vector<int> max = A.maxSlidingWindow(nums, k);
-    for (auto x : max)
-    {
-        cout << x << " ";
-    }
-
-
-    return 0;
-}
+//int main() {
+//    vector<int> nums = { 1,3,1,2,0,5 };
+//    int k = 3;
+//    Solution A;
+//    vector<int> max = A.maxSlidingWindow(nums, k);
+//    for (auto x : max)
+//    {
+//        cout << x << " ";
+//    }
+//
+//
+//    return 0;
+//}
