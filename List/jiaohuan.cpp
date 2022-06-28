@@ -25,7 +25,6 @@ public:
 			cur->next->next = tmp1;
 			cur->next->next->next = tmp2;
 			cur = cur->next->next;;
-
 		}
 		return vhead->next;
 
