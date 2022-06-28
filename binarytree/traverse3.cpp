@@ -15,7 +15,7 @@ struct TreeNode {
 //二叉树的统一迭代法
 class Solution {
 public:
-	//中序
+	//中序 
 	vector<int> inorderTraversal(TreeNode* root) {
 		stack<TreeNode*> stk;
 		vector<int> result;
