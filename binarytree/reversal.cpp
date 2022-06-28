@@ -14,7 +14,7 @@ struct TreeNode {
 }; 
 class Solution {
 public:
-	//226-ตÝน้
+	//226-ตÝน้ 
 	//void traversal(TreeNode* cur)
 	//{
 	//	if (cur == NULL)
