@@ -82,5 +82,23 @@
     <ClCompile Include="stackandqueue\Monotonicqueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binarytree\traverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree\traverse2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree\traverse3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree\level-order-traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree\level-traver-traversal2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="binarytree\reversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

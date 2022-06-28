@@ -28,6 +28,12 @@
     <ClCompile Include="array\erfen.cpp" />
     <ClCompile Include="array\yichu.cpp" />
     <ClCompile Include="array\zishuzu.cpp" />
+    <ClCompile Include="binarytree\level-order-traversal.cpp" />
+    <ClCompile Include="binarytree\level-traver-traversal2.cpp" />
+    <ClCompile Include="binarytree\reversal.cpp" />
+    <ClCompile Include="binarytree\traverse.cpp" />
+    <ClCompile Include="binarytree\traverse2.cpp" />
+    <ClCompile Include="binarytree\traverse3.cpp" />
     <ClCompile Include="doublepointer\shuangzhizhen.cpp" />
     <ClCompile Include="hash\hash1.cpp" />
     <ClCompile Include="hash\hash2.cpp" />
