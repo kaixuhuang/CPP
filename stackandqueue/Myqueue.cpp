@@ -8,7 +8,6 @@ public:
     MyStack() {
 
     }
-
     void push(int x) {
         a.push(x);
     }
