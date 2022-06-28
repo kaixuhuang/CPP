@@ -13,7 +13,7 @@ struct TreeNode {
 
 class Solution {
 public:
-	//前序遍历
+	//前序遍历 
 	void pretraversal(TreeNode* cur, vector<int>& a)
 	{
 		if (cur == NULL) return;
