@@ -5,7 +5,6 @@
 #include <string>
 #include<deque>
 using namespace std;
-
 class Solution {
 public:
     //1047
