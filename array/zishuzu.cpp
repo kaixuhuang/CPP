@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 #include<set>
-#include<algorithm>
+#include<algorithm> 
 using namespace std;
 class Solution {
 public:
